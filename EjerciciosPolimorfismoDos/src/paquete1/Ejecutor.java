@@ -45,6 +45,8 @@ public class Ejecutor {
         listaArriendos.add(arriendoSesiones);
         
         for (int i = 0; i < listaArriendos.size(); i++) {
+            // se lo pone aqui a este metodo de establecerArriendoMensual para que se adecue a cual pertenece y mande el monto canculado dependiendo de cada 
+            //clase
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
             System.out.println(listaArriendos.get(i));
